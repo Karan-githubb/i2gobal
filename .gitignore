@@ -1,0 +1,134 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Virtual environment
+venv/
+ENV/
+
+# Docker
+docker-compose.override.yml
+
+# Database files
+*.db
+*.sql
+/mysql_data/
+/postgres_data/
+
+# Static files
+staticfiles/
+static_collected/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Locust performance tests
+report.html
+report_stats.csv
+report_stats_history.csv
+report_failures.csv
+report_exceptions.csv
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js (if you have frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Vim
+*.swp
+*.swo
+
+# Visual Studio Code
+.history/
+*.code-workspace
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
