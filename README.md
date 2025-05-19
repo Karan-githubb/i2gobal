@@ -14,5 +14,5 @@ A simple notes taking application backend built with Django.
 
 1. Clone the repository:
    ```bash
-   git clone hhttps://github.com/Karan-githubb/i2gobal.git
+   git clone https://github.com/Karan-githubb/i2gobal.git
    cd notes_app
